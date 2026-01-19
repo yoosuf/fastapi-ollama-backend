@@ -61,7 +61,17 @@ A production-ready, open-source backend application integrating **FastAPI**, **P
    docker-compose exec ollama ollama pull llama3
    ```
 
-4. **Access API Documentation**
+4. **(Optional) Seed Database**
+   Create initial Admin and Standard users for testing.
+
+   ```bash
+   docker-compose exec backend python src/scripts/seed_db.py
+   ```
+
+   - Admin: `admin@example.com` / `adminpass`
+   - User: `user@example.com` / `userpass`
+
+5. **Access API Documentation**
    Open your browser and navigate to:
    [http://localhost:8000/docs](http://localhost:8000/docs)
 

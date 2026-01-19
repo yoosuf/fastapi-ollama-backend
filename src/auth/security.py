@@ -1,3 +1,9 @@
+"""
+Author: Yoosuf
+Email: mayoosuf@gmail.com
+Company: Crew Digital
+"""
+
 from datetime import datetime, timedelta
 from typing import Optional
 from jose import jwt

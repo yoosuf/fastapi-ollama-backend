@@ -1,3 +1,9 @@
+"""
+Author: Yoosuf
+Email: mayoosuf@gmail.com
+Company: Crew Digital
+"""
+
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from jose import JWTError, jwt

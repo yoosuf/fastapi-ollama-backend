@@ -1,3 +1,9 @@
+"""
+Author: Yoosuf
+Email: mayoosuf@gmail.com
+Company: Crew Digital
+"""
+
 """add_role_column
 
 Revision ID: 000000000002

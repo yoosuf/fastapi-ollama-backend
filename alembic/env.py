@@ -1,3 +1,9 @@
+"""
+Author: Yoosuf
+Email: mayoosuf@gmail.com
+Company: Crew Digital
+"""
+
 import asyncio
 from logging.config import fileConfig
 

@@ -1,3 +1,9 @@
+"""
+Author: Yoosuf
+Email: mayoosuf@gmail.com
+Company: Crew Digital
+"""
+
 """db_rbac
 
 Revision ID: 000000000003

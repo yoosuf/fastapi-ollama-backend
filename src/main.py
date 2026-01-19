@@ -1,3 +1,9 @@
+"""
+Author: Yoosuf
+Email: mayoosuf@gmail.com
+Company: Crew Digital
+"""
+
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
 from src.config import settings

@@ -1,3 +1,9 @@
+"""
+Author: Yoosuf
+Email: mayoosuf@gmail.com
+Company: Crew Digital
+"""
+
 from abc import ABC, abstractmethod
 from typing import Optional, Dict, Any
 

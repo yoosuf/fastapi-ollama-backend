@@ -1,3 +1,9 @@
+"""
+Author: Yoosuf
+Email: mayoosuf@gmail.com
+Company: Crew Digital
+"""
+
 from pydantic import BaseModel, Field
 from typing import Optional, Dict, Any
 from datetime import datetime
