@@ -54,7 +54,7 @@ pytest-asyncio==0.21.1
 pytest-cov==4.1.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
-python-jose==3.3.0
+python-jose==3.4.0
 python-multipart==0.0.6
 python3-saml==1.16.0
 PyYAML==6.0.2
