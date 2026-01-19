@@ -1,5 +1,4 @@
 from datetime import timedelta
-from typing import Optional
 
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
@@ -11,7 +10,7 @@ from sqlalchemy.orm import selectinload
 from src.core.config import settings
 from src.core.database import get_db
 from src.modules.auth.models import Role, User
-from src.modules.auth.schemas import Token, TokenData, UserCreate, UserResponse
+from src.modules.auth.schemas import Token, TokenData, UserCreate
 from src.modules.auth.utils import create_access_token, get_password_hash, verify_password
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl=f"{settings.API_V1_STR}/auth/login")

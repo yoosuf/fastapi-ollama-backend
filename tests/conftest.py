@@ -9,7 +9,9 @@ os.environ["SECRET_KEY"] = "test_secret"
 
 import pytest
 from httpx import AsyncClient
+
 from src.main import app
+
 
 @pytest.fixture
 async def client():

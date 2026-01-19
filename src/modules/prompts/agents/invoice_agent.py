@@ -1,6 +1,7 @@
 import json
 from typing import Any, Dict
 
+
 class InvoiceAgent:
     @staticmethod
     def get_extraction_prompt(text_content: str) -> str:

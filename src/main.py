@@ -4,6 +4,7 @@ Email: mayoosuf@gmail.com
 Company: Crew Digital
 """
 
+import logging
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
@@ -13,7 +14,6 @@ from src.core.logging_config import setup_logging
 from src.modules.admin import router as admin_router
 from src.modules.auth import router as auth_router
 from src.modules.prompts import router as prompts_router
-import logging
 
 logger = logging.getLogger(__name__)
 

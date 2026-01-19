@@ -74,14 +74,14 @@ class PromptService:
         Uses InvoiceAgent for prompt construction and parsing.
         """
         full_prompt = InvoiceAgent.get_extraction_prompt(text_content)
-        
+
         # Call via create_prompt with format='json'
         prompt_obj = await self.create_prompt(
             prompt_text=full_prompt,
             user_id=user_id,
             model=model,
             meta_data={"type": "invoice_extraction"},
-            format="json"
+            format="json",
         )
-        
+
         return InvoiceAgent.parse_response(prompt_obj.response_text)
