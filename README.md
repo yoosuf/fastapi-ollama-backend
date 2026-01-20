@@ -34,6 +34,30 @@ A production-ready, open-source backend application integrating **FastAPI**, **P
 - [Docker](https://www.docker.com/) & Docker Compose
 - [Ollama](https://ollama.ai/) (Running inside Docker or locally)
 
+### Quick Start (Local)
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/yoosuf/fastapi-ollama-backend.git
+   cd fastapi-ollama-backend
+   ```
+
+2. **Install Dependencies**
+   It is recommended to use a virtual environment.
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   # Use the provided script to ensure clean installation
+   ./install_dependencies.sh
+   ```
+
+3. **Run the Application**
+   ```bash
+   ./entrypoint.sh
+   ```
+
 ### Quick Start (Docker)
 
 1. **Clone the repository**
@@ -135,7 +159,11 @@ Authorization: Bearer <token>
 
 ## 🤝 Contributing
 
-We welcome contributions! Please follow these steps:
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to get started.
+
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
