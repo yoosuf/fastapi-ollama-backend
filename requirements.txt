@@ -70,7 +70,7 @@ starlette==0.49.1
 strawberry-graphql==0.257.0
 tomli==2.2.1
 typing_extensions==4.15.0
-urllib3==2.6.3
+urllib3==1.26.18
 uvicorn==0.24.0
 uvloop==0.21.0
 watchfiles==1.1.0
